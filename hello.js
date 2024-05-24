@@ -1,1 +1,1 @@
-alert(document.location)
+prompt(1)
